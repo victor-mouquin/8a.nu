@@ -1,0 +1,9 @@
+# Don't check in data!
+database.sqlite
+
+# OSX file that's always there
+.DS_Store
+
+# Don't need to commit ipynb_checkpoints
+.ipynb_checkpoints/
+
