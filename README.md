@@ -22,3 +22,27 @@ only 6112 active female climbers, so probably not enough do draw a conclusion.
 
 The bulk of (male) climbers seem to be between 150 and 200 cm, and the ideal height seems to be around 180 cm.   
 For female, height does not seem to affect max performance that much.
+
+## Averager number of years to achieve a given grade
+
+We looked at the average number of years it takes to achieve a given grade. The database is 
+consists of sport climb and boulder ascents, so we looked at both discipline separately. 
+![Average number of climbing years, boulder](years_achieve_boulders.png)
+![Average number of climbing years, sport](years_achieve_sport.png)
+
+We see that there is a lot of noise, but overall, the higher the grades, the many more years of practice it takes. 
+
+## Probability of achieving a given graded conditioned on having achieved the previous one
+
+Next we looked at a potential measure of how hard it is to improve as ones level improves. We plotted the probability 
+a climber has to climb a given grade, conditionned on him having climbed the previous grade. One would expect this conditioned probability to get lower the higher the grades.
+
+First, the unconditioned probability to climb any given grade:
+
+![Probability to climb a given grade](proba_grade.png)
+
+Then the conditioned probability: 
+![Conditioned probability to climb a given grade](condi_proba_grade.png)
+
+Again a lot of noise (climbers may not be precise/truthful when reporting their ascends) but indeed the 
+conditioned probability seems to be higher than the unconditioned one. 
