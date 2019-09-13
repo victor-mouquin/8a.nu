@@ -1,6 +1,6 @@
 # Analyzing data from 8a.nu Climbing logbook
 
-We have been analysing the 8a.nu Climbing logbook, using the data scrapped by David Cohen, available on Kaggle at https://www.kaggle.com/dcohen21/8anu-climbing-logbook. 
+We used the data scrapped by David Cohen, available on Kaggle at https://www.kaggle.com/dcohen21/8anu-climbing-logbook. 
 
 After cleaning the data and getting rid of some non-sensical datapoints (e.g there are 67 climbers who started climbing before they were born) we reduced the list of users to 36031 active climbers, i.e climbers with recorded ascends. 
 
@@ -35,7 +35,7 @@ We see that there is a lot of noise, but overall, the higher the grades, the man
 ## Probability of achieving a given graded conditioned on having achieved the previous one
 
 Next we looked at a potential measure of how hard it is to improve as ones level improves. We plotted the probability 
-a climber has to climb a given grade, conditionned on him having climbed the previous grade. One would expect this conditioned probability to get lower the higher the grades.
+a climber has to climb a given grade, conditioned on him having climbed the previous grade. One would expect this conditioned probability to get lower the higher the grades.
 
 First, the unconditioned probability to climb any given grade:
 
