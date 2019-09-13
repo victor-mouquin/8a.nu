@@ -7,7 +7,7 @@ After cleaning the data and getting rid of some non-sensical datapoints (e.g the
 ## Age of climbers
 
 The bulk of climbers are between 20 and 40 years old, with and average age of 33. 
-![Age of climbers](age_climbers.pdf)
+![Age of climbers](age_climbers.png)
 
 Most of them started climbing between 10 and 30 years old, with an average starting age of 20
 ![Age starded climbing](age_started.pdf)
